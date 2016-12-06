@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2D6CC81DF7421600330740 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = BB2D6CC71DF7421600330740 /* readme.md */; };
 		BBD3C97B1DF6210D0096F6BB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3C97A1DF6210D0096F6BB /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB2D6CC71DF7421600330740 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
 		BBD3C9771DF6210D0096F6BB /* typoglycemia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = typoglycemia; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD3C97A1DF6210D0096F6BB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +45,7 @@
 			children = (
 				BBD3C9791DF6210D0096F6BB /* typoglycemia */,
 				BBD3C9781DF6210D0096F6BB /* Products */,
+				BB2D6CC71DF7421600330740 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2D6CC81DF7421600330740 /* readme.md in Sources */,
 				BBD3C97B1DF6210D0096F6BB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +254,7 @@
 				BBD3C9801DF6210D0096F6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
